@@ -1,0 +1,84 @@
+.do-order{
+    background-color: #E5DCCF;
+    min-height: 775px;
+    padding-top: 50px;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.do-order__filling{
+    width: 415px;
+    height: 663px;
+    background-color: #dec6a5;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.do-order__filling ul{
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+}
+
+.do-order__filling h2{
+    display: inline-block;
+    font-size: 48px;
+}
+
+.do-order__filling ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.do-order__filling ul li:first-child{
+    margin-top: 0;
+}
+
+.do-order__filling ul input{
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.do-order__wishes{
+    box-sizing: border-box;
+    padding-top: 10px;
+    width: 415px;
+    height: 663px;
+    background-color: #dec6a5;
+    font-size: 48px;
+}
+
+.do-order__wishes textarea{
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 35px;
+    width: 300px;
+    height: 550px;
+    background-color: #E5DCCF;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.do-order__image-upload{
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 511px;
+    height: 663px;
+}
+
+.do-order__image{
+    min-width: 478px;
+    min-height: 357px;
+    width: 478px;
+    height: 357px;
+}
+
+.do-order__image-upload input{
+    font-size: 50px;
+}

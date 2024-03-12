@@ -1,0 +1,48 @@
+.cake{
+    width: 634px;
+    height: 273px;
+    margin-bottom: 40px;
+}
+
+.cake img{
+    transition: 0.4s;
+    width: 358px;
+    height: 269px;
+    margin-right: auto;
+    box-shadow: 6px 3px 3px rgb(96, 94, 94);
+    cursor: pointer;
+}
+
+.cake img:hover{
+    width: 365px;
+    height: 275px;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.cake__description{
+    width: 248px;
+    height: 269px;
+    background-color: #dec6a5;
+    box-shadow: 6px 3px 3px rgb(96, 94, 94);
+}
+
+.cake__description p{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: #8944a3;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px 20px;
+    line-height: 22px;
+}
+
+.cake__description p:hover{
+    text-decoration: underline;
+}
+
+.cake{
+    margin-left: 40px;
+}

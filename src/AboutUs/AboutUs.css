@@ -1,0 +1,21 @@
+.about-us__text{
+    min-height: 700px;
+    background-color: #E5DCCF;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: center;
+}
+
+
+
+.about-us__images img{
+    width: 450px;
+    height: 250px;
+    margin-top: 30px;
+}
