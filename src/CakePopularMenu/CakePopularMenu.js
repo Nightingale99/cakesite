@@ -1,9 +1,14 @@
 import './CakePopularMenu.css';
 import React from 'react';
 import CakePopular from '../CakePopular/CakePopular';
+import { useDispatch, useSelector } from 'react-redux';
 
 function CakePopularMenu({ cakeList }){
-    
+    const isAdminLogged = useSelector(state => state.adminLogined)
+    const dispatch = useDispatch()
+    const addCake = () => {
+        dispatch({type:'ADD_CAKE'})
+    }
     return(
     <div className='popular-menu'>
         <div className='popular-menu__container'>
@@ -13,6 +18,9 @@ function CakePopularMenu({ cakeList }){
         )
     })}
         </div>
+        {isAdminLogged
+        ? <button className='navbar-menu__button' onClick={addCake}>Добавить торт</button>
+        : ''}
     </div>
     )
 }

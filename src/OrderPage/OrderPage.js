@@ -17,7 +17,7 @@ function OrderPage(){
     return(
         <div className="order-page">
             <div className='navbar-menu flex'>
-                <Link to='/'><button  className='about-us__navbar-menu__button catalog'><p>Каталог</p></button></Link>
+                <Link to='/'><button  className='about-us__navbar-menu__button'><p>Каталог</p></button></Link>
             </div>
             <div className="order-description">
                 <p>{orderText}</p>

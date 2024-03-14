@@ -1,5 +1,5 @@
 .about-us__navbar-menu{
-    height: 370px;
+    height: 150px;
     background-color: #CEC0D3;
 }
 
@@ -12,8 +12,9 @@
 
 .about-us__navbar-menu__button{
     transition: 0.3s;
+    box-sizing: border-box;
     width: 390px;
-    height: 176px;
+    height: 90px;
     max-width: 390px;
     border-radius: 46px;
     background-color: #AB80BA;
@@ -23,7 +24,7 @@
     font-size: 48px;
     color: #FFFFFF;
     border: 1px solid black;
-    margin-top: 90px;
+    margin-top: 20px;
     justify-content: space-between;
     flex-grow: 1;
     cursor: pointer;
@@ -35,7 +36,7 @@
     background-color: #9c71ab;
     font-size: 50px;
     width: 400px;
-    height: 190px;
+    height: 110px;
     max-width: 400px;
     max-height: 190px;
 }
@@ -58,26 +59,6 @@
     font-size: 48px;
 }
 
-.about-us__navbar-menu__button:first-child{
-    background-color: #9c71ab;
-    font-size: 48px;
-    width: 390px;
-    height: 176px;
-    max-width: 390px;
-    max-height: 176px;
-}
-
-.about-us__navbar-menu__button:first-child:hover{
-    transition: 0.3s;
-    border: 3px solid white;
-    background-color: #9c71ab;
-    font-size: 50px;
-    width: 400px;
-    height: 190px;
-    max-width: 400px;
-    max-height: 190px;
-    cursor: pointer;
-}
 
 .disabled{
     background-color: #785B81;
@@ -86,7 +67,7 @@
 .disabled:hover{
     border: 1px solid black;
     width: 390px;
-    height: 176px;
+    height: 90px;
     max-width: 390px;
     cursor:auto;
     font-size: 48px;

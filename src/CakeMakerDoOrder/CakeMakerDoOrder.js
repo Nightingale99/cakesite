@@ -22,7 +22,7 @@ function CakeMakerDoOrder({ wishesHandler, checkboxHandler, imageHandler }){
             <li><input id='peanut' type='checkbox' onClick={checkboxHandler}></input>Арахисовая</li>
             <li><input id='coffee' type='checkbox' onClick={checkboxHandler}></input>Кофейная</li>
             <li><input id='blueberry' type='checkbox' onClick={checkboxHandler}></input>Черничная</li>
-            <li><input id='rasberry' type='checkbox' onClick={checkboxHandler}></input>Малиновая</li>
+            <li><input id='rasberry' type='checkbox' onClick={checkboxHandler}></input>Коксовая</li>
             <li><input id='chocolate' type='checkbox' onClick={checkboxHandler}></input>Шоколадная</li>
             <li><input id='banana' type='checkbox' onClick={checkboxHandler}></input>Банановая</li>
             <li><input id='cherry' type='checkbox' onClick={checkboxHandler}></input>Вишневая</li>
@@ -36,7 +36,7 @@ function CakeMakerDoOrder({ wishesHandler, checkboxHandler, imageHandler }){
         </div>
         <div className='do-order__image-upload'>
             <img className='do-order__image' alt='Загруженное изображение' src={image}></img>
-                <button className='navbar-menu__button' onClick={() => imageField.current.click()}>
+                <button className='navbar-menu__button upload' onClick={() => imageField.current.click()}>
                     <p>Загрузить изображение</p>
                 </button>
                 <input type="file" ref={imageField} style={{ display: 'none' }} onChange={handleFileChange}/>

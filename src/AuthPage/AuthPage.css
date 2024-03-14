@@ -1,0 +1,49 @@
+.auth{
+    min-height: 1080px;
+    background-color: #E5DCCF;
+}
+
+.auth__form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-family: "Kelly Slab", sans-serif;
+}
+
+.auth__form input{
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.auth__form label{
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.auth__form .navbar-menu__button{
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.auth__form .navbar-menu__button:hover{
+    width: 270px;
+    height: 90px;
+    max-width: 270px;
+    max-height: 90px;
+    font-size: 38px;
+}
+
+.auth__container__greetings{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 1000px;
+    color: green;
+    font-size: 50px;
+}

@@ -29,9 +29,8 @@ function CakeMakerNavBar({ wishList, checkboxList, image }){
                 </div>
             </div>
             <Link to='/'><button  className='about-us__navbar-menu__button'><p>Каталог</p></button></Link>
-            <button onClick={() => {setTimeChoosing(true)}} className='cakemaker__navbar-menu__button catalog'><p>Выбрать время</p></button>
+            <button onClick={() => {setTimeChoosing(true)}} className='cakemaker__navbar-menu__button'><p>Выбрать время</p></button>
             <button className='cakemaker__navbar-menu__button' onClick={()=>{navigate('/order-page', {state:{phoneNumber:phoneNumber, clientDate:clientDate, clientName:clientName, wishList:wishList, checkboxList: checkboxList, image: image, clientAddress}})}}><p>Заказать</p></button>
-            <div className='cakemaker__navbar-menu__number'>Есть вопросы?  Свяжитесь!  +7-343-999-4332</div>
         </div>
     )
 }

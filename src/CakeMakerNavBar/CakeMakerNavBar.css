@@ -1,5 +1,5 @@
 .cakemaker__navbar-menu{
-    height: 370px;
+    height: 150px;
     background-color: #CEC0D3;
     box-sizing: border-box;
 }
@@ -16,7 +16,7 @@
     transition: 0.3s;
     width: 390px;
     max-width: 390px;
-    height: 176px;
+    height: 90px;
     max-height: 176px;
     border-radius: 46px;
     background-color: #AB80BA;
@@ -26,7 +26,7 @@
     font-size: 48px;
     color: #FFFFFF;
     border: 1px solid black;
-    margin-top: 90px;
+    margin-top: 20px;
     justify-content: space-between;
     flex-grow: 1;
     cursor: pointer;
@@ -38,7 +38,7 @@
     background-color: #9c71ab;
     font-size: 50px;
     width: 400px;
-    height: 190px;
+    height: 110px;
 }
 
 
@@ -46,16 +46,6 @@
 .cakemaker__navbar-menu__button p{
     text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
              1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
-}
-
-.cakemaker__navbar-menu__number{
-    font-size: 48px;
-    font-family: "Kelly Slab", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    width: 377px;
-    text-align: center;
-    min-width: 1000px;
 }
 
 .windowTime{
