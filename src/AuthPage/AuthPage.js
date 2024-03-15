@@ -13,7 +13,7 @@ export default function AuthPage() {
         if(email === 'admin@mail.ru' && pass === 'admin12345'){
             dispatch({type: "ADMIN_LOGIN"})
         } else {
-            console.log('эээ долбаеб ежжи тебя нет в системе')
+            console.log('Аккаунт не обнаружен')
         }
     }
 
